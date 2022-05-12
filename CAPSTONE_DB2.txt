@@ -6,7 +6,7 @@
           "-u",
           "mdj07409",
           "-p",
-          "mB9XgQSzX3BkvqeT",
+          "HU8gczWxkpRqDZ2u",
           "--ssl",
           "--sslCAFile",
           "1cbbb1b6-3a1a-4d49-9262-3102a8f7a7c8",
@@ -22,7 +22,7 @@
         "name": "1cbbb1b6-3a1a-4d49-9262-3102a8f7a7c8"
       },
       "composed": [
-        "db2 -u mdj07409 -p mB9XgQSzX3BkvqeT --ssl --sslCAFile 1cbbb1b6-3a1a-4d49-9262-3102a8f7a7c8 --authenticationDatabase admin --host 6667d8e9-9d4d-4ccb-ba32-21da3bb5aafc.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud:30376"
+        "db2 -u mdj07409 -p HU8gczWxkpRqDZ2u --ssl --sslCAFile 1cbbb1b6-3a1a-4d49-9262-3102a8f7a7c8 --authenticationDatabase admin --host 6667d8e9-9d4d-4ccb-ba32-21da3bb5aafc.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud:30376"
       ],
       "environment": {},
       "type": "cli"
@@ -30,7 +30,7 @@
     "db2": {
       "authentication": {
         "method": "direct",
-        "password": "mB9XgQSzX3BkvqeT",
+        "password": "HU8gczWxkpRqDZ2u",
         "username": "mdj07409"
       },
       "certificate": {
@@ -38,7 +38,7 @@
         "name": "1cbbb1b6-3a1a-4d49-9262-3102a8f7a7c8"
       },
       "composed": [
-        "db2://mdj07409:mB9XgQSzX3BkvqeT@6667d8e9-9d4d-4ccb-ba32-21da3bb5aafc.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud:30376/bludb?authSource=admin&replicaSet=replset"
+        "db2://mdj07409:HU8gczWxkpRqDZ2u@6667d8e9-9d4d-4ccb-ba32-21da3bb5aafc.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud:30376/bludb?authSource=admin&replicaSet=replset"
       ],
       "database": "bludb",
       "host_ros": [
